@@ -2,15 +2,18 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Arrcontender <dramman4@gmail.com>"]
 packages = [
    { include = "gendiff" },
 ]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pytest = "^7.1.2"
+
 
 [tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
 
 [tool.poetry.scripts]
 gendiff = "gendiff.scripts.gendiff:main"
