@@ -1,0 +1,23 @@
+name: linter-check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up python
+        uses: actions/setup-python@v3
+        with:
+         python-version: '3.x'
+      - name: Install dependencies
+        run: |
+         pip install poetry
+         pip install pytest
+      - name: Run tests
+        run: poetry run pytest gendiff
