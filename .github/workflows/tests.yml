@@ -20,4 +20,4 @@ jobs:
          pip install poetry
          pip install pytest
       - name: Run tests
-        run: poetry run pytest gendiff
+        run: poetry run pytest
