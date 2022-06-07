@@ -19,7 +19,6 @@ def get_format(file_path):
     return file_format
 
 
-
 def open_file(file_path):
     with open(os.path.abspath(f'gendiff/tests/fixtures/{file_path}')) as f:
         file = f.read()
