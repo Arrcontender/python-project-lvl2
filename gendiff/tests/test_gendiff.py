@@ -6,9 +6,12 @@ import os
 @pytest.mark.parametrize(
     'first_file, second_file, file_result',
     [
-        ('gendiff/tests/fixtures/file1.json',
-         'gendiff/tests/fixtures/file2.json',
-         'gendiff/tests/fixtures/result_json')
+        ('file1.json',
+         'file2.json',
+         'gendiff/tests/fixtures/result_json'),
+        ('file1.yaml',
+         'file2.yaml',
+         'gendiff/tests/fixtures/result_yaml')
     ],
 )
 def test_generate_diff(first_file, second_file, file_result):

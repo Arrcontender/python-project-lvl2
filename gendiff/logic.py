@@ -1,13 +1,11 @@
 #!/usr/bin/env python
-import json
+from gendiff.parser import prepare_file
 
 
 def generate_diff(first_file, second_file):
     answer = "{\n"
-    with open('gendiff/tests/fixtures/file1.json') as first_file:
-        with open('gendiff/tests/fixtures/file2.json') as second_file:
-            data_first_file = json.load(first_file)
-            data_second_file = json.load(second_file)
+    data_first_file = prepare_file(first_file)
+    data_second_file = prepare_file(second_file)
     keys = sorted(data_first_file | data_second_file)
     for key in keys:
         prefix = ''
