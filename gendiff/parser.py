@@ -20,9 +20,9 @@ def get_format(file_path):
 
 
 def open_file(file_path):
-    with open(os.path.join(
+    with open(os.path.expanduser(os.path.join(
             '/Users/ambrosko/Prog/python-project-lvl2/gendiff/tests/fixtures',
-            file_path)) as f:
+            file_path))) as f:
         file = f.read()
     return file
 
