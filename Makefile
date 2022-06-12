@@ -1,5 +1,8 @@
-gendiff:
-	poetry run gendiff -h
+gendiff json:
+	poetry run gendiff file1.json file2.json
+
+gendiff yaml:
+	poetry run gendiff file1.json file2.yaml
 
 build:
 	poetry build
