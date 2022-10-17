@@ -32,5 +32,3 @@ def generate_diff(file1, file2):
     diff.append('}')
     res = '\n'.join(diff)
     return res
-
-
