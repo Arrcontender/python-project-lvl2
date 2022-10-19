@@ -16,6 +16,9 @@ gendiff:
 gendiff-json:
 	poetry run gendiff gendiff/tests/fixtures/file1.json gendiff/tests/fixtures/file2.json
 
+gendiff-yaml:
+	poetry run gendiff gendiff/tests/fixtures/file1.yml gendiff/tests/fixtures/file2.yml
+
 lint:
 	poetry run flake8 gendiff
 
