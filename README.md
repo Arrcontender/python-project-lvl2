@@ -7,3 +7,7 @@
 Comparing two json files:
 
 [![asciicast](https://asciinema.org/a/DfEgmBklm0zHCcMSkdL8y9y5C.svg)](https://asciinema.org/a/DfEgmBklm0zHCcMSkdL8y9y5C)
+
+Comparing two yml files:
+
+[![asciicast](https://asciinema.org/a/Kc1BJ1kF2egIzKIIPAbqdFOtJ.svg)](https://asciinema.org/a/Kc1BJ1kF2egIzKIIPAbqdFOtJ)
