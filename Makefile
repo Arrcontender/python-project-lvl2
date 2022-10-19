@@ -27,4 +27,4 @@ check:
 	poetry run pytest --cov
 
 test-coverage:
-	poetry run pytest --cov=tests/ --cov-report xml
+	poetry run pytest --cov=. --cov-report xml
