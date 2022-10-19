@@ -20,11 +20,11 @@ lint:
 	poetry run flake8 gendiff
 
 test:
-	poetry run pytest --cov --vv
+	poetry run pytest --cov
 
 check:
 	poetry run flake8 gendiff
-	poetry run pytest --cov --vv
+	poetry run pytest --cov
 
 test-coverage:
 	poetry run pytest --cov=tests/ --cov-report xml
