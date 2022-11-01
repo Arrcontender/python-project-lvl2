@@ -1,4 +1,4 @@
-true_nested_json = '''{
+{
     common: {
       + follow: false
         setting1: Value 1
@@ -42,4 +42,3 @@ true_nested_json = '''{
         fee: 100500
     }
 }
-'''
