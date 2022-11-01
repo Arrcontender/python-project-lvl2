@@ -6,12 +6,12 @@
 
 Comparing two json files:
 
-[![asciicast](https://asciinema.org/a/dVZvwubFHyvCiyNOXB30vezHM.svg)](https://asciinema.org/a/dVZvwubFHyvCiyNOXB30vezHM)
+[![asciicast](https://asciinema.org/a/WS9DL7avP2Blb15sX0lyuvGaA.svg)](https://asciinema.org/a/WS9DL7avP2Blb15sX0lyuvGaA)
 
 Comparing two yml files:
 
-[![asciicast](https://asciinema.org/a/Kc1BJ1kF2egIzKIIPAbqdFOtJ.svg)](https://asciinema.org/a/Kc1BJ1kF2egIzKIIPAbqdFOtJ)
+[![asciicast](https://asciinema.org/a/rW1jrYOEdWX0MNDrMSiwNChxm.svg)](https://asciinema.org/a/rW1jrYOEdWX0MNDrMSiwNChxm)
 
 Comparing two nested files:
 
-[![asciicast](https://asciinema.org/a/EwVlSjaVJefDTMtVIitIt9WDk.svg)](https://asciinema.org/a/EwVlSjaVJefDTMtVIitIt9WDk)
+[![asciicast](https://asciinema.org/a/JnfGv8ljxEVTLN7be542a0q8c.svg)](https://asciinema.org/a/JnfGv8ljxEVTLN7be542a0q8c)
