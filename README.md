@@ -11,3 +11,7 @@ Comparing two json files:
 Comparing two yml files:
 
 [![asciicast](https://asciinema.org/a/Kc1BJ1kF2egIzKIIPAbqdFOtJ.svg)](https://asciinema.org/a/Kc1BJ1kF2egIzKIIPAbqdFOtJ)
+
+Comparing two nested files:
+
+[![asciicast](https://asciinema.org/a/EwVlSjaVJefDTMtVIitIt9WDk.svg)](https://asciinema.org/a/EwVlSjaVJefDTMtVIitIt9WDk)
