@@ -4,6 +4,20 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/8245297654213ea4f43b/maintainability)](https://codeclimate.com/github/Arrcontender/python-project-lvl2/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/8245297654213ea4f43b/test_coverage)](https://codeclimate.com/github/Arrcontender/python-project-lvl2/test_coverage)
 
+# Training project "Gendiff"
+
+---
+
+This is an application implemented as part of the second project while studying the profession of Python developer on [Hexlet](https://ru.hexlet.io)
+
+As part of this project, it is necessary to implement a utility for finding differences in configuration files.
+
+Utility features:
+
+* Support for different formats - json, yaml;
+* Report generation in the form of plain text, pretty and json
+
+
 Comparing two json files:
 
 [![asciicast](https://asciinema.org/a/WS9DL7avP2Blb15sX0lyuvGaA.svg)](https://asciinema.org/a/WS9DL7avP2Blb15sX0lyuvGaA)
