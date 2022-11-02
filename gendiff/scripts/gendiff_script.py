@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import argparse
-from gendiff.generate_diff import generate_diff, stylish
+from gendiff.generate_diff import generate_diff
+from gendiff.formatter.plain import plain
+from gendiff.formatter.stylish import stylish
 
 
 def main():
@@ -11,7 +13,13 @@ def main():
     parser.add_argument('-f', '--format', help='set format of output',
                         default=stylish)
     args = parser.parse_args()
-    print(generate_diff(args.first_file, args.second_file, args.format))
+    if args.format == 'plain':
+        diff = generate_diff(args.first_file, args.second_file, plain)
+    elif args.format == 'stylish':
+        diff = generate_diff(args.first_file, args.second_file, stylish)
+    else:
+        diff = generate_diff(args.first_file, args.second_file, args.format)
+    print(diff)
 
 
 if __name__ == '__main__':
