@@ -15,3 +15,7 @@ Comparing two yml files:
 Comparing two nested files:
 
 [![asciicast](https://asciinema.org/a/JnfGv8ljxEVTLN7be542a0q8c.svg)](https://asciinema.org/a/JnfGv8ljxEVTLN7be542a0q8c)
+
+Comparing files using plain format:
+
+[![asciicast](https://asciinema.org/a/Q64LmlnTy4uJDKtVLYS9C8xiO.svg)](https://asciinema.org/a/Q64LmlnTy4uJDKtVLYS9C8xiO)
