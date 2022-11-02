@@ -19,3 +19,7 @@ Comparing two nested files:
 Comparing files using plain format:
 
 [![asciicast](https://asciinema.org/a/Q64LmlnTy4uJDKtVLYS9C8xiO.svg)](https://asciinema.org/a/Q64LmlnTy4uJDKtVLYS9C8xiO)
+
+Comparing files using json format:
+
+[![asciicast](https://asciinema.org/a/2wMBEI4qUeJPklkrVHnj9DVsy.svg)](https://asciinema.org/a/2wMBEI4qUeJPklkrVHnj9DVsy)
